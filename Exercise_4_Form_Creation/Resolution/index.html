@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Criação de Formulários</title>
+    <meta name="description" content="Criação de Formulários" />
+    <meta name="author" content="Gonçalo Pereira" />
+  </head>
+  <body>
+    <h1>Formulário</h1>
+    <hr />
+    <form action="">
+      <label for="name">Nome</label>
+      <input name="name" type="text" />
+      <br />
+      <label for="password">Introduza a sua password</label>
+      <input name="password" type="password" />
+      <br />
+      <label for="birthDate">Data de Nascimento</label>
+      <input name="birthDate" type="date" />
+      <br />
+      <label for="phoneNumber">Telefone</label>
+      <input name="phoneNumber" type="number" />
+      <br />
+      <label for="email">Email</label>
+      <input name="email" type="email" />
+      <br />
+      <span>Género</span>
+      <br />
+      <input type="radio" id="masculino" name="op" value="amarelo" />
+      <label for="masculino">Masculino</label>
+      <br />
+      <input type="radio" id="feminino" name="op" value="azul" />
+      <label for="feminino">Feminino</label>
+      <br />
+      <input type="radio" id="outro" name="op" value="verde" />
+      <label for="outro">Outro</label>
+      <br />
+      <span>Nacionalidade</span>
+      <br />
+      <select name="select">
+        <option value="nacionalidade">Portuguesa</option>
+        <option value="nacionalidade">Outra</option>
+      </select>
+      <br />
+      <span>Escolheu este curso por motivos profissionais?</span>
+      <br />
+      <input type="checkbox" id="nao" name="bool" value="sim" /> NÃO
+      <br />
+      <input type="checkbox" id="sim" name="bool" value="nao" /> SIM
+      <br />
+      <span>Descreva as suas motivações para frequentar este curso.</span>
+      <br />
+      <textarea name="" id="" rows="4" cols="50"></textarea>
+      <br />
+      <span>Numa escala de 1 a 5 como descreve este curso?</span>
+      <br />
+      <input type="range" id="range" name="range" min="0" max="5" />
+      <hr />
+      <input type="submit" value="Enviar Formulário" />
+      <input type="reset" value="Apagar Formulário" />
+    </form>
+  </body>
+</html>
