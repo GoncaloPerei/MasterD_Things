@@ -3,10 +3,10 @@
 This repository contains **personal coursework** from the **Web Development Professional Course** at [Master.D Portugal](https://www.masterd.pt/).  
 
 ## 📌 Purpose of Exercises  
-- Each exercise file includes a **header comment** or **description** explaining:  
-  - The **learning objective** of the task.  
-  - Key concepts practiced (e.g., loops, DOM manipulation, API calls).  
-  - Any additional context provided by the course instructors.  
+- Each exercise includes a **pdf file** explaining:  
+  - The **learning objective** of the task;
+  - Key concepts practiced;  
+  - Any additional context provided by the course instructors; 
 
 ## ⚠️ Notes  
 1. **Solutions are my own work** unless explicitly noted (e.g., instructor-provided templates).  
