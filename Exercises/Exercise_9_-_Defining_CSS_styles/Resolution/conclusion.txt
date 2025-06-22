@@ -1,0 +1,1 @@
+Concluding this exercise, the different ways you can implement CSS in your HTML file actually have an order of implementation.
