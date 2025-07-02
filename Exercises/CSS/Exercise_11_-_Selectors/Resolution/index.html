@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+    <style>
+      body {
+        background-color: rgb(237, 237, 237);
+      }
+
+      h1 {
+        text-align: center;
+        color: blue;
+        padding: 20px;
+        background-color: #d7d7d7;
+        &:after,
+        &:before {
+          content: "___";
+        }
+      }
+
+      .meu_titulo {
+        text-align: center;
+        color: #e8b05d;
+      }
+
+      p{
+        padding: 20px;
+      }
+
+      #paragrafo_2 {
+        background-color: #d7d7d7;
+      }
+
+      #footer{
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>A minha primeira página utilizando seletores</h1>
+    <h2 class="meu_titulo">Título 1</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam hic modi nesciunt repellat? Consequatur adipisci quis voluptatibus et minima incidunt? Mollitia officiis ipsum nam commodi! Optio delectus aperiam est quasi quas reprehenderit quos vel dicta earum facere. Consequuntur, animi ab.</p>
+    <h3 class="meu_titulo">Título 2</h3>
+    <p id="paragrafo_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. In fugit, praesentium aperiam ad minus, dicta esse commodi sed asperiores velit vitae accusamus facere fuga aliquid modi molestias aliquam, perferendis molestiae. Ullam numquam consequuntur a adipisci tempora perspiciatis error repellendus necessitatibus?</p>
+    <h4 class="meu_titulo">Título 3</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+    <hr>
+    <p id="footer">Feito por Sara Granja, 2020</p>
+  </body>
+</html>
