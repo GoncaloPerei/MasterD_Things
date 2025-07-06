@@ -1,0 +1,16 @@
+Just some Misc Notes...
+
+ - Text Direction:
+ Css property to define the direction of the text. Rtl (right to left) and Ltr (left to right).
+ Fun stuff, never heard anything about this one before. Pretty cool!
+
+ - Text Indent:
+ Css property to define spacing between the margin and the first word of the paragraph.
+ Already knew about this one, but never really used it. That's my fault I guess ahah.
+
+ - White Space:
+ Css property to indicate white spaces in a web page.
+    *normal: whitespace is ignored;
+    *pre: whitespace is respected;
+    *nowrap: the line cannot be cut by spaces;
+ Never really understood to much about this property, but I definetly will search more about it.
