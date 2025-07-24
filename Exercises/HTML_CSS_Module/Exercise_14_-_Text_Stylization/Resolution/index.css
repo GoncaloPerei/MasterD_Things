@@ -1,0 +1,124 @@
+header {
+  text-align: center;
+  /* centrar texto */
+  background-color: #0d0d0d;
+  /* aplicar cor de fundo */
+}
+h1,
+h2,
+h3 {
+  color: #f2c3a7;
+  /* cor de títulos */
+}
+h1 {
+  font-size: 56px;
+  /* tamanho de fonte do h1 */
+}
+h1::before,
+h1::after {
+  content: "...";
+}
+
+h3 {
+  font-size: 30px;
+  /* tamanho de fonte do h3 */
+  text-decoration: underline;
+  /* título sublinhado */
+}
+p {
+  font-size: 36px;
+  /* tamanho de fonte do parágrafo */
+}
+nav,
+aside,
+footer {
+  text-align: center;
+  /* centrar texto */
+  font-size: 30px;
+  /* tamanho de fonte */
+}
+nav,
+aside {
+  background-color: #f2a477;
+  /* aplicar cor de fundo */
+}
+footer {
+  background-color: #0d0d0d;
+  /* aplicar cor de fundo */
+}
+#picJD {
+  width: 300px;
+  /* largura de imagem */
+}
+.nomepagina {
+  font-size: 44px;
+  /* tamanho da fonte */
+  text-align: right;
+  /* alinhamento à direita */
+  color: #f2a35e;
+  /* cor da fonte */
+}
+.paragrafo2 {
+  background-color: #f2c3a7;
+  /* aplicar cor de fundo ao paragrafo2*/
+}
+span#JohnDoe_text {
+  font-weight: bold;
+  /* texto estilizado a negrito*/
+}
+a:link,
+a:visited,
+a:hover {
+  color: white;
+  /* cor dos links */
+  text-decoration: none;
+  /* links sem sublinhado */
+}
+a:hover {
+  /* quando o rato passa sobre o link */
+  font-size: 36px;
+  /* tamanho da fonte */
+  color: #0d0d0d;
+  /* tamanho do link */
+}
+a.botao {
+  background-color: #f2c3a7;
+  /* cor de fundo do botão */
+  color: #0d0d0d;
+  /* cor do texto do botão */
+  font-size: 24px;
+  /* tamanho do texto do botão */
+}
+a:hover {
+  /* quando o rato passa sobre o botão */
+  background-color: white;
+  /* cor de fundo do botão */
+  color: black;
+  /* cor do texto do botão */
+  font-size: 42px;
+  /* tamanho do texto do botão */
+}
+
+div.gostos {
+  background-color: #0d0d0d;
+  h3 {
+    font-family: "Lucida Console", sans-serif;
+    color: white;
+    text-transform: uppercase;
+  }
+  h4{
+    letter-spacing: 2px;
+    text-indent: 30px;
+    color: aqua;
+  }
+  li{
+    color: white;
+  }
+  #picplane-JD, #picbook-JD {
+    width: 400px;
+  }
+  .mais_sobre{
+    color: white;
+    font-style: italic;
+  }
+}
